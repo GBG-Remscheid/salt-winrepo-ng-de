@@ -1,6 +1,6 @@
 {% set LOG_PATH = 'C:\\salt\\var\\log\\' %}
 
-AcroReaderDC:
+AcrobatReaderDC:
   '2022.003.20310':
       full_name: 'Adobe Acrobat Reader DC'
       installer: https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200320310/AcroRdrDC2200320310_de_DE.exe
