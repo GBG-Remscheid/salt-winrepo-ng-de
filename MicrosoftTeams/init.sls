@@ -1,12 +1,3 @@
-###############################################################################
-# SLS: Java Runtime
-# Copyright (c) 2017 Helmuth Varkoly, Nuermberg, Germany.
-# All rights reserved.
-#
-# Authos:               Helmuth Varkoly
-#
-# Description:          SLS for installation
-###############################################################################
 {% if grains['cpuarch'] == 'AMD64' %}
 {% set ARCH = "x64" %}
 {% else %}
@@ -16,7 +7,7 @@
 {% set LOG_PATH = 'C:\\salt\\var\\log' %}
 
 MicrosoftTeams:
-  '1.3.0.12058':
+  '1.5.00.36367':
     full_name: 'Teams Machine-Wide Installer'
     installer: salt://win/repo-ng/MicrosoftTeams/install.bat
     install_flags: ''
