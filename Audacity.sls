@@ -7,9 +7,9 @@
 {% set LOG_PATH = 'C:\\salt\\var\\log' %}
 
 Audacity:
-  '3.0.0':
-      full_name: 'Audacity 3.0.0'
-      installer: https://www.audacityorg.de/download/audacity-win3.0.0.exe
+  '3.2.5':
+      full_name: 'Audacity 3.2.5'
+      installer: https://github.com/audacity/audacity/releases/download/Audacity-3.2.5/audacity-win-3.2.5-x64.exe
       {% if ARCH == 'x64' %}
       uninstaller: '%PROGRAMFILES(x86)%\Audacity\unins000.exe'
       {% else %}
